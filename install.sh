@@ -11,7 +11,7 @@ dalfox="go/bin/dalfox"
 seharusnya="/bin"
 
 
-# sudo apt install golang-go
+sudo apt install golang-go
 
 if [[ $EUID -ne 0 ]]; then
    echo -e "${error} ${normal}Anda harus menjalankan script sebagai root untuk melanjutkan.${normal}"
