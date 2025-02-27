@@ -4,7 +4,6 @@ error="\e[31m"
 normal="\e[0m"
 info="\e[1;32m[ INFO ]"
 proses="\e[1;34m[ PROSES ]"
-magenta="\e[35m"
 subfinder="go/bin/subfinder"
 httpx="go/bin/httpx"
 nuclei="go/bin/nuclei"
@@ -37,7 +36,7 @@ echo -e "${proses} ${normal}Pilih Opsi:
 [2] Install dalfox
 [3] Install sqlmap
 [x] Exit
-Pilihan: [1-4 or x]"
+Pilihan: [1-3 or x]"
 
 read -r pilihan
 
@@ -91,15 +90,7 @@ case $pilihan in
         sleep 1
         ;;
 
-    4)
-        echo -e "${magenta} ${normal}Telegram: ${telegram}${normal}"
-        echo -e "${magenta} ${normal}WhatsApp: ${whatsapp}${normal}"
-        echo -e "${magenta} ${normal}Instagram: ${instagram}${normal}"
-        sleep 1
-        ;;
-    x|X)
-        exit
-        ;;
+  
     *)
         echo -e "${error} ${normal}Pilihan tidak valid. Silakan pilih opsi yang tersedia.${normal}"
         sleep 1
