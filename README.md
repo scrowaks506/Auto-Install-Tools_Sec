@@ -19,7 +19,7 @@ Clone project dari GitHub dan jalankan script dengan langkah-langkah berikut:
 
 ### Clone Repository
 ```bash
-git clone https://github.com/username/AutoTools.git](https://github.com/scrowaks506/install_tools.git
+git clone https://github.com/scrowaks506/install_tools.git
 cd AutoTools
 ```
 
